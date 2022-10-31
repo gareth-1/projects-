@@ -1,4 +1,4 @@
 # projects
 self-made projects 
 
-table of centents / date of publish 
+table of contents / date of publish 

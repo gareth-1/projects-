@@ -29,19 +29,44 @@ print("C -display the 3 lowest number of vehicals in the transport mode in the c
 print("D -plots sum of buses and personal vehicals vs the year as the line plot ")
 print("Q -quit programme")
 print("="*40)
+print("vehical types:")
+print("1- buses")
+print("2- personal vehicals")
+print("3- loaded trucks")
+print("="*40)
 
 #option selection 
-user_input = input("please choose a option: ")
-
-if user_input == "Q" or user_input == "q" : 
-    print("goodbye")
-    quit 
-elif user_input == "A" or user_input == "a" : 
-    year_inp =input("please select a year: ")
-    enumerate(year, start = 0 )
-    for idx in range(0,13) :
+user_input = input("please choose a option (A-D or Q): ")
+#option A 
+if user_input == "A" or user_input == "a" : 
+    year_input = input("please select a year (2000-2012): ")
+    for idx in range(13) :
         total = buses[idx] + personal_vehicals[idx] + loaded_trucks[idx]
-        print(f"The total vehicals crossing the border in {year_inp} was {total}") 
+print(f"The total vehicals crossing the border in {year[idx]} was {total}") 
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#option B 
+
+
 
 
 
